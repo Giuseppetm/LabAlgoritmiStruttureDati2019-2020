@@ -1,2 +1,3 @@
-# LabAlgoritmiStruttureDati2019-2020
-Repo di esercizi del laboratorio di algoritmi e strutture dati (Unimi). Anno accademico 2019/2020
+### Laboratorio di Algoritmi e Strutture Dati (2019 - 2020)
+
+Questa repo contiene molti degli esercizi più importanti del corso di laboratorio di algoritmi e strutture dati, svolti durante l'anno accademico 2019-2020. Ci tengo a precisare che alcuni esercizi potrebbero essere non completi, oppure svolti in un modo non totalmente corretto, o anche non funzionanti, quindi la repo è da usare con cautela.
