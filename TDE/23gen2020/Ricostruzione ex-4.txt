@@ -1,0 +1,35 @@
+Griglia di caselle, nere o bianche
+non puoi andare nelle caselle nere. L'obiettivo sarà calcolare il numero di percorsi possibili dalla casella in alto a sinistra
+fino a quella in basso a destra.
+
+f funzione
+f(c) numero di percorsi che dalla casella c finiscono nella casella in basso a destra.
+
+Domande:
+1) Se c è una casella nera, allora:
+
+f(c) = 0
+
+2) Se c è bianca ed è in basso a destra:
+
+f(c) = 1
+
+3) Se c è una casella nell'ultima riga, scrivere un'equazione di ricorrenza che fa riferimento alla casella a destra di c:
+
+f(c-destra)		se c bianca, 0 altrimenti
+
+4) Se c è una casella nell'ultima colonna, scrivere un'equazione di ricorrenza che fa riferimento alla casella sotto di c:
+
+f(c-sotto)		se c bianca, 0 altrimenti
+
+5) Equazione di ricorrenza in base a c di sotto, e c di destra
+
+f(c-sotto) + f(c-destra)
+
+6) ??
+
+Per la casella in alto a sx.
+
+7) Scrivere un algoritmo in pseudocodice che permette di calcolare il numero di percorsi possibili (forse)
+
+??

@@ -1,0 +1,16 @@
+(1)
+La risposta è la a), dato che:
+
+La b) è esclusa perché c'è un reparto che manda prodotti a 3 reparti (il massimo è due).
+La c) è esclusa in quanto non c'è un primo reparto per il modo in cui sono disposti i reparti.
+La d) è esclusa perché un reparto manda prodotti a 3 reparti (il massimo è due).
+La e) è esclusa in quanto ogni reparto deve ricevere prodotti solo da un altro reparto.
+
+(2) 
+La struttura dati da utilizzare è un albero binario. 
+I reparti di produzione sono i nodi interni dell'albero, quelli di collaudo sono le foglie dell'albero, e il primo reparto
+è la radice dell'albero. I collegamenti tra i reparti sono rappresentati dagli archi tra i nodi.
+Il numero di lavoratori sono un attributo aggiuntivo dei nodi (oltre il numero identificativo).
+
+(3)
+Si può utilizzare la visita in ampiezza fino alle foglie, e sommare man mano i valori dei numeri di lavoratori dei reparti.
